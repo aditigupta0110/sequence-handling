@@ -48,3 +48,32 @@ A, T, G and C. Ambiguous bases such as N are rejected.
 ## Author
 Aditi Gupta
 
+
+
+## Public Dataset: TP53 mRNA
+
+- **Organism:** Homo sapiens
+- **Gene:** TP53
+- **NCBI accession:** AM076972.1
+- **Record:** Partial mRNA, mutant form, from the L1236 Hodgkin lymphoma cell line
+- **Input file:** `data/tp53.fasta`
+- **Output file:** `tp53_results.csv`
+
+### Analysis Results
+
+| Metric | Value |
+|---|---:|
+| Sequence length | 1032 nucleotides |
+| A count | 237 |
+| T count | 211 |
+| G count | 258 |
+| C count | 326 |
+| GC content | 56.59% |
+
+### Data Source
+
+https://www.ncbi.nlm.nih.gov/nuccore/AM076972.1
+
+The sequence is a partial mRNA record, not the complete TP53 gene.
+
+
